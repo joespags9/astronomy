@@ -1,0 +1,19 @@
+.app__timeline{
+    list-style-position: inside;
+}
+
+.app__timeline h1{
+    color: white
+}
+
+.app__timeline h4{
+    color: white
+}
+
+.app__timeline h5{
+    color: white
+}
+
+.app__timeline li{
+    color: white
+}

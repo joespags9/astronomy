@@ -1,0 +1,13 @@
+.app__navbar {
+    color: white;
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.app__navbar a {
+    text-decoration: none;
+    color: white
+}

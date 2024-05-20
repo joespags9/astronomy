@@ -1,23 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import Header from './containers/Header/Header';
+import Timeline from './containers/Timeline/Timeline';
+import Legend from './containers/Legend/Legend';
+import Stars from './containers/Stars/Stars';
+import Proton from './containers/Protons/Protons';
+import Hawking from './containers/Hawking/Hawking';
+import DarkEnergy from './containers/DarkEnergy/DarkEnergy';
+import Alternate from './containers/Alternate/Alternate';
+import Navbar from './components/Navbar/Navbar';
+
+import data from './constants/data'
+import { BrowserRouter as Router,Route,Routes,Navigate } from 'react-router-dom';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header/>
+      <br/>
+      <br/>
+      <DarkEnergy/>
+      <br/>
+      <br/>
+      <Stars/>
+      <br/>
+      <br/>
+      <Proton/>
+      <br/>
+      <br/>
+      <Hawking/>
+      <br/>
+      <br/>
+      <Alternate/>
     </div>
   );
 }
